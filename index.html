@@ -264,6 +264,50 @@
       background-color: #f2f2f2;
       font-weight: bold;
     }
+    /* Company Earnings Styles */
+    .company-earnings-card {
+      background: #f8f9fa;
+      border: 1px solid #e9ecef;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+    .company-earnings-card h3 {
+      color: #1a237e;
+      margin-top: 0;
+      border-bottom: 2px solid #ffb300;
+      padding-bottom: 0.5rem;
+    }
+    .company-earnings-card h4 {
+      color: #333;
+      margin-top: 1.2rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+    .financial-highlights {
+      background: #fff;
+      padding: 1rem;
+      border-left: 4px solid #ffb300;
+      margin: 0.5rem 0;
+    }
+    .financial-highlights li {
+      margin-bottom: 0.5rem;
+      line-height: 1.5;
+    }
+    .executive-commentary {
+      background: #e8f4f8;
+      padding: 1rem;
+      border-left: 4px solid #1a237e;
+      font-style: italic;
+      margin: 0.5rem 0;
+    }
+    .forward-looking {
+      background: #fff3cd;
+      padding: 1rem;
+      border-left: 4px solid #ffc107;
+      margin: 0.5rem 0;
+    }
     footer {
       text-align: center;
       padding: 1rem 0;
@@ -311,6 +355,20 @@
     body.dark-mode .mobile-menu-toggle {
       color: #ffb300;
     }
+    /* Dark mode company earnings styles */
+    body.dark-mode .company-earnings-card {
+      background: #2a2a3a;
+      border-color: #444;
+    }
+    body.dark-mode .financial-highlights {
+      background: #1a1a2e;
+    }
+    body.dark-mode .executive-commentary {
+      background: #1a2332;
+    }
+    body.dark-mode .forward-looking {
+      background: #2d2a1f;
+    }
   </style>
 </head>
 <body>
@@ -328,6 +386,7 @@
       <a href="#executive-summary">Overview</a>
       <a href="#market-overview">Market</a>
       <a href="#key-players--competitive-landscape">Key Players</a>
+      <a href="#company-earnings">Earnings</a>
       <a href="#major-challenges--industry-headwinds">Challenges</a>
       <a href="#supply-chain--critical-materials-analysis">Supply Chain</a>
       <a href="#technological-trends--innovations">Technology</a>
@@ -492,10 +551,59 @@
       <p><strong>Patience & Conviction:</strong></p>
       <ul><li><strong>Thesis J:</strong> <em>Invest for the Long Term:</em> Acknowledge that the quantum sector’s timeline is extended. Strategies like phased entry (dollar-cost averaging into quantum ETFs or stocks) can manage risk while maintaining exposure to potential exponential upside.</li><li><strong>Thesis K:</strong> <em>Focus on Fundamentals:</em> Prioritize companies hitting technical milestones (e.g., qubit count, error rate reduction, real customer use-cases) over those merely riding hype cycles. These fundamentals-driven picks are more likely to endure and eventually profit as the industry matures.</li></ul>
     </section>
+    <section id="company-earnings">
+      <h2>Company Earnings Analysis (Q1 2025)</h2>
+      <p>Detailed financial performance analysis of leading publicly traded quantum computing companies based on their latest quarterly earnings reports.</p>
+      <div class="company-earnings-card">
+        <h3>IonQ</h3>
+        <h4>Financial Highlights</h4>
+        <ul class="financial-highlights">
+          <li>- <strong>Q1 2025:</strong> $7.6M revenue (flat YoY) with net loss $32.3M (vs $39.6M loss in Q1 2024)<a href="#ref1">[<strong>1</strong>]</a>.</li>
+          <li>- <strong>Q2 2025 (guidance):</strong> $16–18M revenue expected, vs $11.4M in Q2 2024<a href="#ref1">[<strong>1</strong>]</a><a href="#ref6">[<strong>6</strong>]</a>.</li>
+          <li>- <strong>FY 2024:</strong> $43.1M revenue (+95% YoY) beating guidance<a href="#ref6">[<strong>6</strong>]</a>; net loss $331.6M (widened by warrant fair-value charges)<a href="#ref6">[<strong>6</strong>]</a>.</li>
+          <li>- <strong>YTD 2025:</strong> H1 revenue on track ~$24M (up ~27% YoY vs $19M in H1 2024) and losses narrowing. Cash reserves ~$700M as of Q1, providing ample runway<a href="#ref1">[<strong>1</strong>]</a>.</li>
+        </ul>
+        <h4>Executive Commentary</h4>
+        <p class="executive-commentary">IonQ CEO Niccolo de Masi noted a strong start to 2025, with Q1 revenue above guidance midpoint and 'almost $700 million in cash' fueling expansion<a href="#ref1">[<strong>1</strong>]</a>. The company closed acquisitions of ID Quantique and announced deals for Lightsynq and Capella to accelerate its quantum networking and computing roadmap. IonQ also secured a $22M system sale to EPB for a new quantum hub in Tennessee and was selected for DARPA's Quantum Benchmarking Initiative.</p>
+        <h4>Forward-Looking Analysis</h4>
+        <p class="forward-looking">IonQ projects FY 2025 revenue of $75–95M<a href="#ref1">[<strong>1</strong>]</a>, roughly doubling 2024 with inorganic boosts. Executives highlight growing demand from cloud and research clients and recently agreed to acquire UK-based Oxford Ionics to bolster its technology portfolio. Analysts remain bullish: IonQ is rated 'Strong Buy' by many, with targets ~$43–70, citing its tech leadership and rapid growth. However, its steep valuation (~98× sales) and ongoing losses keep some skepticism in play.</p>
+      </div>
+      <div class="company-earnings-card">
+        <h3>D-Wave</h3>
+        <h4>Financial Highlights</h4>
+        <ul class="financial-highlights">
+          <li>- <strong>Q1 2025:</strong> $15.0M revenue (record quarter, +509% YoY from $2.5M in Q1 2024)<a href="#ref2">[<strong>2</strong>]</a>; net loss narrowed to $5.4M (from $17.3M a year prior).</li>
+          <li>- <strong>Q2 2025:</strong> Results pending (Q2 2024 was modest at ~$1.7M revenue). D-Wave expects continued YoY growth as it commercializes its Advantage2 systems.</li>
+          <li>- <strong>FY 2024:</strong> $8.8M revenue (flat vs 2023)<a href="#ref7">[<strong>7</strong>]</a>; net loss $143.9M (widened 74% YoY due to a $68M one-time warrant revaluation charge)<a href="#ref7">[<strong>7</strong>]</a>. Bookings hit $23.9M (+128% YoY), reflecting strong contract signings.</li>
+          <li>- <strong>YTD 2025:</strong> With Q1's big jump, 2025 revenue is on pace to far exceed 2024. The company raised $146M via stock programs in early 2025, boosting cash to over $300M<a href="#ref2">[<strong>2</strong>]</a>. Q1 bookings were $1.6M (down 64% YoY after a large deal last year)<a href="#ref2">[<strong>2</strong>]</a>.</li>
+        </ul>
+        <h4>Executive Commentary</h4>
+        <p class="executive-commentary">D-Wave CEO Alan Baratz called Q1 2025 'arguably the most significant in D-Wave's history'<a href="#ref2">[<strong>2</strong>]</a>. In that quarter, D-Wave recognized revenue from its first-ever sale of an Advantage quantum annealing system to a major research institution and even moved a customer application into commercial production. The company also achieved a major scientific milestone, demonstrating quantum computational supremacy on a practical materials simulation (published in Science). Baratz highlighted that these achievements led to record revenue and gross profit for the quarter.</p>
+        <h4>Forward-Looking Analysis</h4>
+        <p class="forward-looking">D-Wave has not issued formal full-year 2025 guidance, but management is optimistic as enterprises adopt its annealing technology for real-world use cases. The firm is calibrating a 4,400-qubit Advantage2 prototype and offering on-premise systems (e.g., one installed at Jülich Supercomputing Centre). It launched programs like 'Quantum Uplift' to win over disillusioned users of competitor platforms and partnered with Carahsoft to expand public-sector access. Investor sentiment has improved — D-Wave's stock has surged over 140% YTD — as its technical progress and revenue growth signal potential for stronger 2025 performance. Still, achieving consistent quarterly sales beyond one-off system deals remains a key challenge.</p>
+      </div>
+      <div class="company-earnings-card">
+        <h3>Rigetti</h3>
+        <h4>Financial Highlights</h4>
+        <ul class="financial-highlights">
+          <li>- <strong>Q1 2025:</strong> $1.5M revenue (-52% YoY from $3.1M in Q1 2024)<a href="#ref3">[<strong>3</strong>]</a>; operating loss $21.6M. A non-cash gain on warrants turned this into a one-time net profit of $42.6M for the quarter.</li>
+          <li>- <strong>Q2 2025:</strong> Results pending (Q2 2024 was $3.1M revenue with $12.4M net loss)<a href="#ref8">[<strong>8</strong>]</a>. Rigetti's revenues remain on a lower run-rate in 2025 after a flat 2024.</li>
+          <li>- <strong>FY 2024:</strong> $10.8M revenue (down ~10% YoY)<a href="#ref8">[<strong>8</strong>]</a>; net loss $201.0M<a href="#ref8">[<strong>8</strong>]</a>. Q4 alone saw a $153M loss due to large charges, highlighting the company's heavy cash burn and revaluation expenses.</li>
+          <li>- <strong>YTD 2025:</strong> First-half revenue is tracking significantly below 2024's pace, reflecting continued customer concentration and contract timing issues. Rigetti ended 2024 with $217M in cash after significant equity raises, providing runway as it works to improve product performance and sales.</li>
+        </ul>
+        <h4>Executive Commentary</h4>
+        <p class="executive-commentary">CEO Dr. Subodh Kulkarni remains focused on technical milestones and partnerships to revive growth. He noted that Rigetti's 24-qubit test system is achieving ~99% two-qubit gate fidelities and 60–80ns gate speeds – 2× faster than other superconducting QPUs and far faster than ion-trap systems. Kulkarni expressed confidence that this progress will carry over to the new 84-qubit Ankaa-3 chip deployed in late 2024. He also pointed to Rigetti's selection for DARPA's benchmarking program and a UK quantum consortium as validation of its technology leadership.</p>
+        <h4>Forward-Looking Analysis</h4>
+        <p class="forward-looking">Rigetti has not provided concrete 2025 revenue guidance as it navigates a turnaround. The company is betting on its 84-qubit Ankaa-3 system (launched with 99% fidelities) to attract customers and is developing a 336-qubit multi-chip "Lyra" system expected in the future. Strategically, Rigetti secured a major partnership with Quanta Computer, involving $100M from each party over five years and an immediate $35M equity investment. It also notched its first sale of a 'Novera' quantum processing unit to an academic institution (Montana State University), indicating early market traction. While analysts acknowledge Rigetti's strong technical groundwork and improved balance sheet, they remain cautious given its declining revenues and hefty losses. The stock saw a brief jump after the Quanta deal announcement, but sustaining investor confidence will require clear progress in scaling revenue through 2025.</p>
+      </div>
+    </section>
     <section id="citations">
       <h2>References</h2>
       <ol>
-        <li id="ref1"><a href="https://www.grandviewresearch.com/industry-analysis/quantum-computing-market" target="_blank">Grand View Research: Quantum Computing Market Size | Industry Report, 2030 (2024 market size USD 1.42 billion; 20.5% CAGR 2025–2030).</a></li>
+        <li id="ref1"><a href="https://investors.ionq.com/news-events/press-releases/detail/116/ionq-reports-first-quarter-2025-financial-results" target="_blank">IonQ Q1 2025 Earnings Press Release (2025).</a></li>
+        <li id="ref2"><a href="https://ir.dwavesys.com/news-events/press-releases/detail/146/d-wave-announces-first-quarter-2025-financial-results" target="_blank">D-Wave Q1 2025 Financial Results and Business Update (2025).</a></li>
+        <li id="ref3"><a href="https://investors.rigetti.com/static-files/8e7ec36f-226d-45b1-95b6-04ad8fa9f7bb" target="_blank">Rigetti Q1 2025 Results (SEC 10-Q Filing, May 2025).</a></li>
+        <li id="ref4"><a href="https://www.grandviewresearch.com/industry-analysis/quantum-computing-market" target="_blank">Grand View Research: Quantum Computing Market Size | Industry Report, 2030 (2024 market size USD 1.42 billion; 20.5% CAGR 2025–2030).</a></li>
         <li id="ref2"><a href="https://www.startus-insights.com/innovators-guide/quantum-computing-outlook/" target="_blank">Startus Insights: Quantum Computing Outlook 2025 (Subsegment definitions, regional trends, startup ecosystem).</a></li>
         <li id="ref3"><a href="https://finance.yahoo.com/news/ionq-announces-fourth-quarter-full-210500294.html" target="_blank">Yahoo Finance: IonQ Announces Fourth Quarter and Full Year 2024 Financial Results (Revenue USD 43.1 M; acquisition of ID Quantique).</a></li>
         <li id="ref4"><a href="https://www.barrons.com/articles/d-wave-quantum-earnings-stock-price-26e8c27d" target="_blank">Barron’s: D-Wave Quantum Posts Wider-Than-Expected Loss; Full-Year Revenue USD 8.8 M (2024), Bookings USD 23.9 M.</a></li>
